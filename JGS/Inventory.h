@@ -92,7 +92,7 @@ public:
            //auto ArAmmo = FindObjectFast<UFortItemDefinition>("/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium")->CreateTemporaryItemInstanceBP(1, 0);
             auto ArAmmo = FindObjectFast<UFortItemDefinition>("/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium")->CreateTemporaryItemInstanceBP(1, 0);
             auto ArAmmoWorld = reinterpret_cast<UFortWorldItem*>(ArAmmo);
-            ArAmmoWorld->ItemEntry.Count = 250;
+            ArAmmoWorld->ItemEntry.Count = 450;
             ArAmmoWorld->ItemEntry.ReplicationKey++;
             FortInventory->Inventory.ReplicatedEntries.Add(ArAmmoWorld->ItemEntry);
             FortInventory->Inventory.ItemInstances.Add(ArAmmoWorld);
@@ -101,7 +101,7 @@ public:
           //auto ShowAmmo = FindObjectFast<UFortItemDefinition>("/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium")->CreateTemporaryItemInstanceBP(1, 0);
             auto GiveWood = FindObjectFast<UFortItemDefinition>("/Game/Items/ResourcePickups/WoodItemData.WoodItemData")->CreateTemporaryItemInstanceBP(1, 0);
             auto GiveWorldWood = reinterpret_cast<UFortWorldItem*>(GiveWood);
-            GiveWorldWood->ItemEntry.Count = 800;
+            GiveWorldWood->ItemEntry.Count = 950;
             GiveWorldWood->ItemEntry.ReplicationKey++;
             FortInventory->Inventory.ReplicatedEntries.Add(GiveWorldWood->ItemEntry);
             FortInventory->Inventory.ItemInstances.Add(GiveWorldWood);
@@ -109,7 +109,7 @@ public:
            
             auto GiveStone = FindObjectFast<UFortItemDefinition>("/Game/Items/ResourcePickups/StoneItemData.StoneItemData")->CreateTemporaryItemInstanceBP(1, 0);
             auto GiveWorldStone = reinterpret_cast<UFortWorldItem*>(GiveStone);
-            GiveWorldStone->ItemEntry.Count = 800;
+            GiveWorldStone->ItemEntry.Count = 950;
             GiveWorldStone->ItemEntry.ReplicationKey++;
             FortInventory->Inventory.ReplicatedEntries.Add(GiveWorldStone->ItemEntry);
             FortInventory->Inventory.ItemInstances.Add(GiveWorldStone);
