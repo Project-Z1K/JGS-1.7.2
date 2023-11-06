@@ -19,12 +19,12 @@ static T* FindObjectFast(std::string ObjectName, UClass* ObjectClass = UObject::
     return StaticFindObject(ObjectClass, nullptr, OrigInName, false);
 }
 
-//#define CHEATS
-//#define DBNO_ENABLED
-//#define SAME_TEAM
-//#define LOG_RPCS
+#define CHEATS
+#define DBNO_ENABLED
+#define SAME_TEAM
+#define LOG_RPCS
 #define DUOS
-#define SQUADS
+//#define SQUADS
 
 struct CharPart
 {

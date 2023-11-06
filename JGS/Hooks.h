@@ -117,8 +117,8 @@ namespace Hooks
 
 			AFortSafeZoneIndicator* Indicator = (AFortSafeZoneIndicator*)pObject;
 
-			Indicator->NextCenter = (FVector_NetQuantize100)FVector{ 86766, -83071, 17525 };
-			Indicator->LastCenter = (FVector_NetQuantize100)FVector{ 86766, -83071, 17525 };
+			Indicator->NextCenter = (FVector_NetQuantize100)FVector{ 103901, -20203, 17525 }, // ANARCHY acres
+			Indicator->LastCenter = (FVector_NetQuantize100)FVector{ 103901, -20203, 17525 }, // ANARCHY acres
 
 			Indicator->Radius = 10000;
 			Indicator->NextRadius = 950;
@@ -374,7 +374,9 @@ namespace Hooks
 				LOG("LATEGAME");
 
 				auto GameState = (AFortGameStateAthena*)Globals::World->GameState;
-				FVector BattleBusLocation = FVector{ 86766, -83071, 25000 }; // moisty mire
+				FVector BattleBusLocation = FVector{ 103901, -20203, 17525 }; // moisty mire
+
+
 				auto GameMode = (AFortGameModeAthena*)Globals::World->AuthorityGameMode;
 				auto Aircraft = GameState->GetAircraft();
 

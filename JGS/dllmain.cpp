@@ -9,6 +9,7 @@
 
 #include "SDK.hpp"
 
+
 using namespace SDK;
 
 #include "Globals.h"
@@ -53,7 +54,7 @@ int InitImGui()
 {
     // Create application window
     //ImGui_ImplWin32_EnableDpiAwareness();
-    WNDCLASSEXW wc = { sizeof(wc), CS_CLASSDC, WndProc, 0L, 0L, GetModuleHandle(NULL), NULL, NULL, NULL, NULL, L"1.7.2 Control Panel", NULL };
+    WNDCLASSEXW wc = { sizeof(wc), CS_CLASSDC, WndProc, 0L, 0L, GetModuleHandle(NULL), NULL, NULL, NULL, NULL, L"Z1K MP 1.7.2 testing dll", NULL };
     ::RegisterClassExW(&wc);
     HWND hwnd = ::CreateWindowW(wc.lpszClassName, L"1.7.2 Control Panel", WS_OVERLAPPEDWINDOW, 100, 100, 1280, 800, NULL, NULL, wc.hInstance, NULL);
 
@@ -212,7 +213,7 @@ int InitImGui()
         }
         if (done)
             break;
-
+        
         // Start the Dear ImGui frame
         ImGui_ImplDX9_NewFrame();
         ImGui_ImplWin32_NewFrame();
@@ -221,6 +222,15 @@ int InitImGui()
         ImGui::Begin("baning");
         ImGui::Text("WARNING: this is a test i think is not working!");
         ImGui::Checkbox("ban test", &Globals::ban);
+        if (ImGui::Button("ban test"))
+        {
+            //add code when i can i am testing neggas
+        }
+
+
+        ImGui::Begin("Game Functionality");
+        ImGui::Text("WARNING be chill using this pepole can get ur stufff");
+
 
         ImGui::Begin("Game Functionality");
 
