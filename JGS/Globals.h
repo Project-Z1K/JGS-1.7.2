@@ -46,6 +46,8 @@ namespace Globals
     UCustomCharacterPart* BodyPart;
     bool LateGame = false;
     bool teams = false;
+    bool ban = false;
+
     std::vector<UFortItemDefinition*> Traps;
     std::vector<UFortItemDefinition*> Consumables;
     std::vector<UFortItemDefinition*> SupplyDrop;

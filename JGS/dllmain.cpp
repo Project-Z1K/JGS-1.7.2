@@ -218,6 +218,10 @@ int InitImGui()
         ImGui_ImplWin32_NewFrame();
         ImGui::NewFrame();
 
+        ImGui::Begin("baning");
+        ImGui::Text("WARNING: this is a test i think is not working!");
+        ImGui::Checkbox("ban test", &Globals::ban);
+
         ImGui::Begin("Game Functionality");
 
         ImGui::Text("WARNING: Press the buttons only when the map is fully loaded!");

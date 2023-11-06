@@ -117,16 +117,12 @@ namespace Hooks
 
 			AFortSafeZoneIndicator* Indicator = (AFortSafeZoneIndicator*)pObject;
 
-			Indicator->NextCenter = (FVector_NetQuantize100)FVector{ 24426, 37710, 17525 };
-			Indicator->LastCenter = (FVector_NetQuantize100)FVector{ 24426, 37710, 17525 };
 			Indicator->NextCenter = (FVector_NetQuantize100)FVector{ 86766, -83071, 17525 };
 			Indicator->LastCenter = (FVector_NetQuantize100)FVector{ 86766, -83071, 17525 };
-			Indicator->NextCenter = (FVector_NetQuantize100)FVector{ 2399, -96255, 17525 };
-			Indicator->LastCenter = (FVector_NetQuantize100)FVector{ 2399, -96255, 17525 };
 
 			Indicator->Radius = 10000;
-			Indicator->NextRadius = 1000;
-			Indicator->LastRadius = 900;
+			Indicator->NextRadius = 950;
+			Indicator->LastRadius = 850;
 			Indicator->SafeZoneFinishShrinkTime =100;
 
 			((AFortGameModeAthena*)Globals::World->AuthorityGameMode)->SafeZonePhase = 2;
