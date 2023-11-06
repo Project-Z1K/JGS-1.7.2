@@ -1,5 +1,8 @@
 # JGS With a GUI (Version 1.7.2) 
 
+# gs proofs ![image](https://github.com/Project-Z1K/Z1K-1.7.2/assets/149071205/02174b1e-7271-422a-a565-8ee92f6e3497)
+
+
 # Factures all thr stuff JGS have and this more
 
 - Proper Teams
