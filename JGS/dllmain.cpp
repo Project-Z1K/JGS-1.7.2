@@ -56,7 +56,7 @@ int InitImGui()
     //ImGui_ImplWin32_EnableDpiAwareness();
     WNDCLASSEXW wc = { sizeof(wc), CS_CLASSDC, WndProc, 0L, 0L, GetModuleHandle(NULL), NULL, NULL, NULL, NULL, L"Z1K MP 1.7.2 testing dll", NULL };
     ::RegisterClassExW(&wc);
-    HWND hwnd = ::CreateWindowW(wc.lpszClassName, L"1.7.2 Control Panel", WS_OVERLAPPEDWINDOW, 100, 100, 1280, 800, NULL, NULL, wc.hInstance, NULL);
+    HWND hwnd = ::CreateWindowW(wc.lpszClassName, L"Z1K MP 1.7.2 testing dll", WS_OVERLAPPEDWINDOW, 100, 100, 1280, 800, NULL, NULL, wc.hInstance, NULL);
 
     // Initialize Direct3
     if (!CreateDeviceD3D(hwnd))
@@ -218,6 +218,12 @@ int InitImGui()
         ImGui_ImplDX9_NewFrame();
         ImGui_ImplWin32_NewFrame();
         ImGui::NewFrame();
+
+        ImGui::Begin("admin stuff");
+        if (ImGui::Button("test not work no code"))
+        {
+            //add code when i can i am testing neggas
+        }
 
         ImGui::Begin("baning");
         ImGui::Text("WARNING: this is a test i think is not working!");
