@@ -1,25 +1,6 @@
-# JGS With a GUI (Version 1.7.2) 
-
-# gs proofs ![image](https://github.com/Project-Z1K/Z1K-1.7.2/assets/149071205/02174b1e-7271-422a-a565-8ee92f6e3497)
+# JGSMP SOURCE CODE 1.7.2 RECODE
 
 
-# Factures all this stuff JGS have  this more
+# Join the discord 
 
-- Proper Teams
-- imgui ui
-- Proper hooking
-- Lategame
-- general fixes
-- sherch the stuff in the map is not a chest (if u dont know what is this u will see ingame)
-- tramps
-- and more!!
-- randome lategame locations
-- better teams
-- new imguis stuff
-- baning beta
-- 1:1 fix
-# IMGUI AND CODE BY ANDRUE1K Z1KMP SERVER 
-
- Meant to make 1.7.2 more user friendly while also adding compatibility for easy VPS usage!
-
-# Join the discord i delete the discord
+https://discord.gg/Q3gwfFsm62
