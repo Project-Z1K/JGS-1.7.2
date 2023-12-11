@@ -25,5 +25,4 @@
 # Features in JGS 2.0
 Lategame + GUI + Traps + Teams i think 
 
-# Join the discord here
-https://discord.gg/VeptRzDkDu
+# Join the discord i delete the discord
